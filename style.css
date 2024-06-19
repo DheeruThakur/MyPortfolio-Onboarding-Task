@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f8f9fa;
+
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  main {
+    min-height: 90vh;
+  }
+  
+  h3 {
+    padding: 1rem 0;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+  }
+  
+  /**
+  * Navbar css start
+  */
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-family: "Lobster", cursive;
+    /* color: green; */
+  }
+  
+  .navbar-brand:hover {
+    color: green;
+  }
+  
+  .navbar.fixed-top {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+.intro-section{
+
+    height: 90vh;
+    background-color: #f4f4f7;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.intro-section .row{
+    height: 90vh;
+}
+
+/* Custom CSS for Projects Section */
+.trending .row {
+    margin-bottom: 30px;
+  }
+  
+  .trending .col-md-12 {
+    margin-bottom: 30px;
+  }
+  
+  .trending .col-md-6 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .trending h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .trending p {
+    font-size: 1rem;
+  }
+
+  /* Custom styles for card bodies */
+.trending .card {
+    background-color: #f8f9fa; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; 
+  }
+  
+  .trending .card-body {
+    padding: 1.5rem; 
+  }
+
+  .imageContainer {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    display: block;
+    height: auto;
+    max-height: 100%;
+  }
+
+  .imageContainer img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    height: auto;
+    max-height: 100%;
+  }
+
+  .contact h1 {
+    margin-bottom: 20px;
+   
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+.contact svg {
+    margin-right: 10px;
+}
+
+.contact form {
+    width: 100%;
+}
+
+.contact .row {
+    flex: 1;
+}
+
+.contact .col-md-8 {
+    margin-left: auto;
+}
+
+.contact .col-md-12 {
+    margin-right: auto;
+}
+
+.contact .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .contact .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .col-md-8,
+    .contact .col-md-12 {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
+
+ /* Custom CSS for footer */
+.footer {
+    background-color: #343a40; 
+    color: #ffffff; 
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  .footer::before {
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: #343a40; 
+    z-index: -1; 
+  }
+  
+  .footer-content {
+    position: relative; 
+    z-index: 1;
+  }
+  
+  .footer p {
+    margin-bottom: 0; 
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .footer {
+      text-align: center; 
+    }
+  }
+
+  .contact .container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: center;
+    width: 100%;
+}
+
+.contact .form-container{
+    max-width: 500px;
+    width: 100%;
+}
+
+
+
+
+#about {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove margins */
+    padding: 0; /* Remove padding */
+    background-color: #f4f4f7; /* Ensure it has the same background color */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+  }
+  
+  #about h3, #about p {
+    margin: 0.5rem 0; /* Add some vertical margin for spacing */
+  }
+  
